@@ -1,0 +1,167 @@
+#URL
+WebsiteURL:
+  SC_BackEnd: https://demo.inwellcom.com/Manage
+  google: https://www.google.com.tw/?hl=zh_TW
+  
+#DB
+DB:
+  server: DEMOSITE
+  user: SC
+  password: Iwc1qaz@WSX
+  database: IntelligentBuildingDB3
+  
+#login ACC PWS
+Login:
+  account: admin
+  password: 8ik,(OL>
+
+# User
+NormalManager:
+  name: qaTest
+  new_name: normalManagerEdit
+  account: nm12345
+  phone: 0912345678
+  email: 1234@sad.com
+  password: Aa123456
+  new_password: 7ujm*IK<
+
+SystemManager:
+  name: qaTest
+  new_name: systemManagerEdit
+  account: sm12345
+  phone: 0912345678
+  email: 123456@sad.com
+  password: Aa123456
+  new_password: 7ujm*IK<
+  
+NormalUser:
+  name: qaTest
+  new_name: normalUserEdit
+  account: nu12345
+  phone: 0912345678
+  email: 12345@sad.com
+  password: Aa123456
+  new_password: 7ujm*IK<
+  
+# EventCategory
+EventCategory:
+  name: eventCategoryAdd
+  new_name: eventCategoryEdit
+
+# EventSet
+ValueEvent:
+  name: valueEventAdd
+  Describe: eventDescribeAdd
+  new_name: valueEventEdit
+  new_describe: eventDescribeEdit
+
+CustomEvent:
+  name: customEventAdd
+  Describe: customEventDescribeAdd
+  new_name: customEventEdit
+  new_describe: customEventDescribeEdit
+  
+# ActionGroup
+ActionGroup:
+  name: actionGroupAdd
+  new_name: actionGroupNameEdit
+
+# interaction
+Interaction:
+  name: interactionAdd
+  new_name: interactionEdit
+
+# interactionSchedule
+InteractionSchedule:
+  name: InteractionScheduleAdd
+  new_name: InteractionScheduleEdit
+  
+# mapset
+NewMap:
+  name: newMapCreatAdd
+  new_name: newMapEdit
+
+NewMapInMap:
+  name: newMapInMapAdd
+
+MapModal:
+  name: MapModalAdd
+  new_name: mapModalEdit
+  uploadFile: 202106211_175531_HDR.jpg
+  
+# contactPerson
+ContactPerson:
+  name: contactPersonAdd
+  new_name: contactPersonEdit
+  phone: 0912345678
+  email: contactPersonAdd@Add.com
+  note: contactPersonNotAdd
+
+ContactGroup:
+ name: contactGroupAdd
+ new_name: contactGroupEdit
+
+# eventNotify
+DeviceNotifyEvent:
+  message: deviceEventAdd
+  new_message: deviceEventEdit
+
+ValueNotifyEvent:
+  message: valueEventAdd
+  new_message: valueEventEdit
+  
+CustomNotifyEvent:
+  message: customEventAdd
+  new_message: customEventEdit
+  
+# holidayManage
+HolidayCalendarContent:
+  name: holidayCalendarContentAdd
+  new_name:
+
+NationalHoliday:
+  name: nationalHolidayAdd
+  new_name: nationalHolidayEdit
+
+# regularWork
+RegularWork:
+  name: regularWorkAdd
+  new_name: regularWorkEdit
+  workcontent: workContentAdd
+  
+# relevantLinkAdd
+RelevantLinkAdd:
+  name: relevantLinkAdd
+  new_name: relevantLinkEdit
+  
+# Excel
+ExcelDownload:
+  userLog: 使用者日誌列表.xlsx
+  booleanTimeRecord: 運轉紀錄列表.xlsx
+  devicesInformation: 設備列表.xlsx
+  eventRecord: 事件紀錄列表.xlsx
+  mapDevice: DevicePositionDb.csv
+  mapSet: DevicePositionDb.csv
+  relevantFile: a-testUploadFile.docx
+
+# ODS
+OdsDownload:
+  userLog: 使用者日誌列表.ods
+  booleanTimeRecord: 運轉紀錄列表.ods
+  devicesInformation: 設備列表.ods
+  eventRecord: 事件紀錄列表.ods
+
+# uploadFile
+uploadFile:
+  mapSet: DevicePositionDbTest.csv
+  relevantFile: a-testUploadFile.docx
+
+# Folder Path
+FolderPath:
+  common: common
+  data: data
+  download: download
+  driver: driver
+  file: file
+  reports: reports
+  testcase: testcase
