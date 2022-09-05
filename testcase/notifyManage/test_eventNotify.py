@@ -293,6 +293,7 @@ class TestEventNotify(object):
 
         sleep(1)
 
+        # 獲取複合式條件列表count數與資料庫count數比對驗證
         customMultipleNotifyList = countList.notifyEvent(driver)
 
         sleep(1)
