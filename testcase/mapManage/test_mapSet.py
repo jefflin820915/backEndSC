@@ -135,7 +135,6 @@ class TestMapSet(object):
 
         # 選擇檔案上傳
         # 選取特定目錄下特定檔案
-        # todo: 檔案路徑,以解決,剩把路徑設成變數或常數
         uploadMapFile = driver.find_element(By.ID, "uploadMapFile")
         uploadMapFile.send_keys(
             os.path.abspath(os.path.join(os.getcwd(), os.path.pardir, 'file', load_yaml['MapModal']['uploadFile'])))
@@ -260,7 +259,6 @@ class TestMapSet(object):
 
         sleep(2)
 
-        # todo:位置解決, 把路徑設成變數或常數
         # 取得瀏覽器下載頁面下載之檔案名稱
         file_name = getDownLoadedFileName.getDownLoadedFileName(driver, 5)
         # 取得下載目錄的下載檔案名稱

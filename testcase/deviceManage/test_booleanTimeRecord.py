@@ -106,7 +106,6 @@ class TestBooleanTimeRecord(object):
 
         sleep(10)
 
-        # todo:位置解決, 把路徑設成變數或常數
         # 取得瀏覽器下載頁面下載之檔案名稱
         file_name = getDownLoadedFileName.getDownLoadedFileName(driver, 5)
         # 取得下載目錄的下載檔案名稱
@@ -135,7 +134,6 @@ class TestBooleanTimeRecord(object):
 
         sleep(10)
 
-        # todo:位置解決, 把路徑設成變數或常數
         # 取得瀏覽器下載頁面下載之檔案名稱
         file_name = getDownLoadedFileName.getDownLoadedFileName(driver, 5)
         # 取得下載目錄的下載檔案名稱
