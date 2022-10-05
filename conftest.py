@@ -119,13 +119,6 @@ def pytest_html_results_table_header(cells):
     cells.insert(2, html.th('Test_nodeid'))
     cells.pop(2)
 
-
-# @pytest.mark.optionalhook
-# def pytest_html_results_table_html(report, data):
-#     if report.passed:
-#         del data[:]
-#         data.append(html.div('pass用例未輸出log.', class_='empty log'))
-
 @pytest.mark.optionalhook
 def pytest_html_report_title(report):
     report.title = "Selenium+pytest"
